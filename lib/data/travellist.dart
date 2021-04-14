@@ -1,0 +1,88 @@
+import 'package:travelmemories/model/travel.dart';
+
+List<Travel> traveling = [
+  Travel(
+      location: 'Dudhsagar Falls',
+      stars: 5,
+      visitor: 'Vinay Jawadwar',
+      imageUrl: 'assets/1.jpg',
+      locationtype: 'Waterfall',
+      description: '...'),
+  Travel(
+      location: 'Goa',
+      stars: 4,
+      visitor: 'Kapil Mathpati',
+      imageUrl: 'assets/2.jpg',
+      locationtype: 'Ocean',
+      description: '...'),
+  Travel(
+      location: 'Palolem Beach',
+      stars: 4,
+      visitor: 'Manmath mathvale',
+      imageUrl: 'assets/3.jpg',
+      locationtype: 'Sea',
+      description: '...'),
+  Travel(
+      location: 'Shillong',
+      stars: 4,
+      visitor: 'Papanna',
+      imageUrl: 'assets/4.jpg',
+      locationtype: 'HillStation',
+      description: '...'),
+  Travel(
+      location: 'Jim Corbett National Park',
+      stars: 4,
+      visitor: 'Vaijnath',
+      imageUrl: 'assets/5.jpg',
+      locationtype: 'National park',
+      description: '...'),
+  Travel(
+      location: 'Dudhsagar Falls',
+      stars: 4,
+      visitor: 'Yogesh',
+      imageUrl: 'assets/6.jpg',
+      locationtype: 'Waterfalls',
+      description: '...'),
+  Travel(
+      location: 'Mahabaleshwar',
+      stars: 4,
+      visitor: 'Vishal',
+      imageUrl: 'assets/7.jpg',
+      locationtype: 'Hillstation',
+      description: '...'),
+  Travel(
+      location: 'Manali',
+      stars: 5,
+      visitor: 'Ajinkya',
+      imageUrl: 'assets/8.jpg',
+      locationtype: 'Hillstation',
+      description: '...'),
+  Travel(
+      location: 'Ladhakh',
+      stars: 4,
+      visitor: 'Venkatesh',
+      imageUrl: 'assets/9.jpg',
+      locationtype: 'Adventure',
+      description: '...'),
+  Travel(
+      location: 'Shimla',
+      stars: 4,
+      visitor: 'Rohan',
+      imageUrl: 'assets/11.jpg',
+      locationtype: 'Nature',
+      description: '...'),
+  Travel(
+      location: 'Manali',
+      stars: 5,
+      visitor: 'Tejas',
+      imageUrl: 'assets/12.jpg',
+      locationtype: 'Adventure',
+      description: '...'),
+  Travel(
+      location: 'Betla National Park',
+      stars: 3,
+      visitor: 'Vinit',
+      imageUrl: 'assets/13.jpg',
+      locationtype: 'National Park',
+      description: '...'),
+];

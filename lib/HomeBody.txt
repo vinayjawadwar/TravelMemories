@@ -1,0 +1,54 @@
+import 'package:flutter/material.dart';
+import 'package:travelmemories/Top.dart';
+import './Top.dart';
+
+
+
+
+
+class Body extends StatefulWidget {
+  @override
+  _BodyState createState() => _BodyState();
+}
+
+class _BodyState extends State<Body> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: Container(
+          child: Column(
+            children: [
+              Container(
+                alignment: Alignment.topLeft,
+                margin: EdgeInsets.all(10.0),
+                child: Column(
+                  children: <Widget>[
+                    SizedBox(height: 15),
+                    Text("Top Trendig",
+                        textAlign: TextAlign.left,
+                        style: TextStyle(
+                            fontSize: 30,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.black38)),
+                    Text("Memories",
+                        style: TextStyle(
+                            fontSize: 30,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.blueGrey)),
+                    SizedBox(height: 10),
+                    Text("Next can be yours on trending  page..",
+                        style: TextStyle(fontSize: 15)),
+                  ],
+                ),
+              ),
+              Container(child: TopMemories())
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+//${this.name}
+//${this.email}

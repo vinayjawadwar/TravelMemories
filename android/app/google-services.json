@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "871900200670",
+    "project_id": "travel-memories-e2355",
+    "storage_bucket": "travel-memories-e2355.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871900200670:android:bf76e8963e58997a93cc4f",
+        "android_client_info": {
+          "package_name": "com.example.travelmemories"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871900200670-0qp1bmajcjhb2rkri3i89skddp27a316.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.travelmemories",
+            "certificate_hash": "c63039365766b4b97d2449f58929d918f32df55e"
+          }
+        },
+        {
+          "client_id": "871900200670-0k1v9im8rvhms8rpj9oln62bkcpem099.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPWHbxSokkkf5_HS2loP6CCuV9PzqIVcQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871900200670-0k1v9im8rvhms8rpj9oln62bkcpem099.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
